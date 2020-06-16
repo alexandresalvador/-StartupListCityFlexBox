@@ -1,0 +1,125 @@
+
+  body {
+    background: #EEEEEE;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+}
+a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+    height: 200px;
+    width: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nav {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 100px 0px 22px 0px;
+}
+.nav h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+    font-weight: 100;
+    margin: 20px 0px 9px 0px;
+    color: #333;
+}
+.nav h2 {
+    font-size: 30px;
+    font-weight: 100;
+    margin: 20px 0px 9px 0px;
+    color: #333;
+}
+.quadrados {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px 3px 0px;
+}
+.quadrados div {
+    width: 290px;
+    height: 200px;
+    margin: 3px;
+    display: flex;
+}
+.quadrados div:hover {
+    background-size: auto;
+    background-position: unset;
+}
+.quadrado-1 {
+    background-image: url(/images/startup-new-york.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.quadrado-2 {
+    background-image: url(/images/startup-atlanta.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.quadrado-3 {
+    background-image: url(/images/startup-paris.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.quadrado-4 {
+    background-image: url(/images/startup-bangalore.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.quadrado-5 {
+    background-image: url(/images/startup-berlin.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.quadrado-6 {
+    background-image: url(/images/startup-boston.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.quadrado-7 {
+    background-image: url(/images/startup-sao-paulo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.quadrado-8 {
+    background-image: url(/images/startup-chicago.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.quadrado-9 {
+    background-image: url(/images/startup-hong-kong.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.quadrado-10 {
+    background-image: url(/images/startup-sanfrancisco.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.quadrado-11 {
+    background-image: url(/images/startup-london.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.quadrado-12 {
+    background-image: url(/images/startup-toronto.jpg);
+    background-size: cover;
+    background-position: center;
+}
+@media (max-width: 600px) 
+{
+    .nav { padding: 120px 0px 22px 40px; }
+    .nav h1 { font-size: 30px; }
+    .nav h2 { max-width: 400px; }
+    .quadrados { padding: 0px 0px 3px 40px; }
+}
+
+/*:root?
